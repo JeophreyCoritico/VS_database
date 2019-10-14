@@ -5,4 +5,4 @@
 as
 insert into Employee (StaffID, GivenName, Surname)
 values (@StaffID, @GivenName, @Surname)
-
+return 0;
