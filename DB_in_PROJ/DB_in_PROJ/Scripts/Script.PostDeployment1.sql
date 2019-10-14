@@ -10,21 +10,21 @@ Post-Deployment Script Template
 --------------------------------------------------------------------------------------
 */
 
-DELETE FROM Assignment_1;
-DELETE FROM Office_1;
-DELETE FROM Employee_1;
+DELETE FROM Assignment;
+DELETE FROM Office;
+DELETE FROM Employee;
 
-Insert into Office_1 (LocCode, Address, Description) Values
+Insert into Office (LocCode, Address, Description) Values
 (1, 'test', 'testing'),
 (2, 'test2', 'testing2'),
 (3, 'test3', 'testing3');
 
-Insert into Employee_1 (StaffID, GivenName, Surname) Values
+Insert into Employee (StaffID, GivenName, Surname) Values
 (1, 'jeff', 'jeoph'),
 (2, 'jimbo', 'jim'),
 (3, 'jerome', 'jerry');
 
-Insert into Assignment_1 (DateAssigned, LocCode, StaffID) Values
-('2019-10-15', 'jeff', 'jeoph'),
-('2000-09-22', 'jimbo', 'jim'),
-('1917-03-22', 'jerome', 'jerry');
+Insert into Assignment (DateAssigned, LocCode, StaffID) Values
+('2019-10-15', 1, 1),
+('2000-09-22', 2, 2),
+('1917-03-22', 3, 3);
