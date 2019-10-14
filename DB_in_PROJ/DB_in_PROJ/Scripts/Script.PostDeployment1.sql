@@ -25,6 +25,6 @@ Insert into Employee_1 (StaffID, GivenName, Surname) Values
 (3, 'jerome', 'jerry');
 
 Insert into Assignment_1 (DateAssigned, LocCode, StaffID) Values
-(20191015, 'jeff', 'jeoph'),
-(20000922, 'jimbo', 'jim'),
-(19170322, 'jerome', 'jerry');
+('2019-10-15', 'jeff', 'jeoph'),
+('2000-09-22', 'jimbo', 'jim'),
+('1917-03-22', 'jerome', 'jerry');
